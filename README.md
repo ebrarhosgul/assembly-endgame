@@ -4,39 +4,11 @@ A fun and interactive **word guessing game** built with React, where your missio
 
 ---
 
-<!-- ## 🚀 Live Demo
-[View on Vercel](https://MY_VERCEL_DEPLOYMENT_URL)
-
-*(Replace with your deployed project link)*
-
---- -->
-
-## 📂 Project Structure
-
-```
-assembly-endgame/
-├── public/
-│   └── abc.png
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── Languages.jsx
-│   ├── App.css
-│   ├── App.jsx
-│   ├── index.css
-│   ├── main.jsx
-│   ├── utils.js
-│   ├── words.js
-│   └── languages.js
-├── .gitignore
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
-```
+## 🚀 Live Demo
+[View on Vercel](https://assembly-endgame-ebrar.vercel.app/)
 
 ---
+
 
 ## ✨ Features
 
@@ -81,6 +53,33 @@ npm run dev
 
 ---
 
+## 📂 Project Structure
+
+```
+assembly-endgame/
+├── public/
+│   └── abc.png
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Languages.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   ├── utils.js
+│   ├── words.js
+│   └── languages.js
+├── .gitignore
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
 ## 🎮 How to Play
 
 1. Click or tap the letters to guess the hidden programming language.
@@ -92,14 +91,21 @@ npm run dev
 
 ## 📸 Screenshots
 
-### Start Screen
-![Start Screen](assets/screenshots/screenshot-start.png)
-
-### Mid Game
-![Mid Game](assets/screenshots/screenshot-mid.png)
-
-### Winning Screen
-![Winning Screen](assets/screenshots/screenshot-win.png)
-
-### Losing Screen
-![Losing Screen](assets/screenshots/screenshot-lose.png)
+<table>
+  <tr>
+    <th>Start Screen</th>
+    <th>Mid Game</th>
+  </tr>
+  <tr>
+    <td><img src="./src/assets/screenshots/game-start.png" width="300"></td>
+    <td><img src="./src/assets/screenshots/game-mid.png" width="300"></td>
+  </tr>
+  <tr>
+    <th>Winning Screen</th>
+    <th>Losing Screen</th>
+  </tr>
+  <tr>
+    <td><img src="./src/assets/screenshots/game-won.png" width="300"></td>
+    <td><img src="./src/assets/screenshots/game-lost.png" width="300"></td>
+  </tr>
+</table>
