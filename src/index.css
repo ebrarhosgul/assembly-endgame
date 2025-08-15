@@ -194,6 +194,14 @@ button.new-game {
 }
 
 @media screen and (max-width: 500px) {
+  header > h1 {
+    font-size: 24px;
+  }
+
+  header > p {
+    font-size: 14px;
+  }
+  
   main {
     width: 100vw;
     padding-inline: 20px;
@@ -201,11 +209,20 @@ button.new-game {
 
   .status-section {
     margin-inline: 20px;
+    height: 50px;
+  }
+
+  .current-word-container {
+    margin-block: 30px;
   }
 
   .current-word-letter {
     height: auto;
     aspect-ratio: 1;
+  }
+
+  .alphabet-container {
+    margin: 30px auto;
   }
 
   .alphabet-letter {
