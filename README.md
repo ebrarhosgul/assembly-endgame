@@ -90,6 +90,16 @@ npm run dev
 
 ---
 
-<!-- ## 📸 Screenshots
+## 📸 Screenshots
 
-![Game Screenshot](./src/assets/abc.png) -->
+### Start Screen
+![Start Screen](assets/screenshots/screenshot-start.png)
+
+### Mid Game
+![Mid Game](assets/screenshots/screenshot-mid.png)
+
+### Winning Screen
+![Winning Screen](assets/screenshots/screenshot-win.png)
+
+### Losing Screen
+![Losing Screen](assets/screenshots/screenshot-lose.png)
