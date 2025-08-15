@@ -209,7 +209,17 @@ button.new-game {
 
   .status-section {
     margin-inline: 20px;
-    height: 50px;
+    height: 55px;
+  }
+
+  .status-section > h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .status-section > div {
+    margin: 0;
+    font-size: 14px;
   }
 
   .current-word-container {
